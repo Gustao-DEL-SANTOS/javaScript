@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang = "pt-br">
+<head>
+	<title>My test page </title>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body onload="load()">
+	<div id="principal">
+
+		<div class="menu">
+			<div class="user">
+				<h1 class="title"> My Page </h1>
+				<img src="usuário.png" class="user-image" onmouseover="alterarImg(this)" onmouseout="voltarImg(this)">
+			</div>
+			
+			<ul class="lista-menu">
+				<li>Home</li>
+				<li>Posts</li>
+				<li>Help</li>
+			</ul>
+		</div>
+
+		<div class="botoes">
+
+			<button type="button" onclick="clicou()">Click me</button>			
+			<p id="agradecimento" onclick="redirecionar()"></p>
+			<p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse</p>
+			<p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse</p>
+			<p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse</p>
+		</div>
+
+		<div>
+			<select onchange="funcaoChange(this)">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f133aF;
+	width: 720PX;
+	margin: 15px;
+	padding: 10px;
+	
+}
+
+#principal {
+	margin: 5px;
+	padding: 20px;
+	border: 1px red solid;
+	background: #ae97d4;
+}
+
+.lista-menu {
+	list-style-type: none;
+	margin: 15px;
+	color: #ffffff;	
+}
+
+div {
+	margin: 10px 0;
+}
+
+.user-image {
+	width: 60px;
+	height: 60px;
+	margin: 15px 0;
+}
